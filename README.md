@@ -9,12 +9,12 @@ Use this to navigate through the folders to find what you need.
 
 If no link is provided, this means that the page is missing/incomplete. [See how you could contribute](#contributions).
 
-- [Options](https://github.com/hatanuk/ibcs/tree/main/Java)
+- [Options](https://github.com/hatanuk/ibcs/tree/main/Options)
 	- Option A: Databases
 	- Option B: Modelling and simulation
 	- Option C: Web science
-	- [Option D: Objected-Oriented Programming (Java)](https://github.com/hatanuk/ibcs/tree/main/Java/Concepts)
-		- [Encapsulation](https://github.com/hatanuk/ibcs/blob/main/Java/Concepts/Encapsulation.md)
+	- [Option D: Objected-Oriented Programming (Java)](https://github.com/hatanuk/ibcs/tree/main/Options/Option%20D)
+		- [Encapsulation](https://github.com/hatanuk/ibcs/tree/main/Options/Option%20D/Encapsulation.md)
 
 - [Core Syllabus](https://github.com/hatanuk/ibcs/tree/main/Core%20Syllabus)
 	- Topic 1
