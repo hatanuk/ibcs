@@ -104,7 +104,7 @@ Hopefully you are able to see the advantages of using the **private** modifier, 
 ## Uses of Encapsulation
 To recap, here are the ways to implement encapsulation in your code, and the benefits of doing so:
 
-**1) Data Hiding**
+**1) Data Hiding**\
 By using the **private** modifier on variables, in combination with Getters and Setters, we are able to control them to be:
 - Read-only (Getters)
 - Write-only (Setters)
@@ -118,7 +118,7 @@ Data hiding provides numerous advantageous such as:
 - Preventing unintended external usage that may lead to errors (a form of **validation**, improving **robustness**)
 - Allowing for code **reusability** using methods inside the class that shouldn't otherwise be accessed externally
 
-**2) Abstraction**
+**2) Abstraction**\
 Additionally, by using **private** modifier on variables or methods, we are able to build our code in a way that hides implementation details (such as by adding extra behaviour to your Getters/Setters), which leads to abstraction.
 Abstraction is useful because it allows us to focus on the bigger picture; we can quickly reuse code without having to worry about the small details.
 Some advantages are:
@@ -129,7 +129,7 @@ Some advantages are:
 -  Allows for multiple programmers to use each other's code without knowing the implementation (**collaboration**)
 - Encourages **modular** code
 
-**3) Modularity**
+**3) Modularity**\
 Structuring your code in an encapsulated way is a good way to increase the modularity of your code. This is because encapsulated code (such as that contained in classes) is inherently modular, as the internal code is seperate from the external code.
 Modularity is probably one of the most important aspects of writing good code.
 Here are some benefits:
