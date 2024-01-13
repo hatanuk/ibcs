@@ -36,7 +36,3 @@ For the core syllabus topics, it is especially helpful if you include all of the
 To add your contribution, start a pull request, or if you are unsure of how to do that, just message me on Discord:
 > hatanuk
 
-## Credits
-* **hatanuk**
-
-
