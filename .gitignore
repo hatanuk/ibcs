@@ -1,0 +1,51 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Ignore compiled files
+*.class
+*.dll
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# Ignore package manager directories
+node_modules/
+bower_components/
+
+# Ignore build and output directories
+dist/
+out/
+build/
+
+# Ignore local configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore macOS folder attributes
+Icon?
+
+# Ignore sensitive or private information (modify as needed)
+config.js
+config.json
+secrets.json
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore custom logs and backups
+logs/
+backup/
+
