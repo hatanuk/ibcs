@@ -1,9 +1,9 @@
 ﻿
 ## Encapsulation
 Encapsulation is a method for introducing **modularity** into your code; ie. it serves the purpose of keeping sections of the code (in this case, classes) self-contained and the inner workings abstracted away. 
-Encapsulation can be accomplished through the use of the **private** *access modifier*, which prevents the variable or method from being accessed externally.
+Encapsulation can be achieved through the use of the **private** *access modifier*, which prevents the variable or method from being accessed externally.
 
-*(To avoid confusion, **external** code refers to code outside of the class you are encapsulating (such as in the main() method) and **internal** refers to the code found inside of the class)*
+*(**external** code refers to code outside of a specific class (such as in the main() method) and **internal** refers to the code found inside of the class)*
 
 For example,
 ```java
@@ -26,16 +26,16 @@ class Circle {
     }
 }
 ```
-The difference between the two variables *radius* and *PI* is the access modifier, **public** and **private** respectively. Let's try to create an instance of this class and access the two variables.
+The difference between the two variables *radius* and *PI* is the access modifier, **public** and **private**. Let's try to create an instance of this class and access the two variables.
 ```java
 Circle myCircle = new Circle(5);
 
-System.out.println(myCircle.radius) // This works: output is 5.0
+System.out.println(myCircle.radius); // This works: output is 5.0
 	
-System.out.println(myCircle.PI) // Error while compiling, the private variable "is not visible".
+System.out.println(myCircle.PI); // Error while compiling, the private variable "is not visible".
 ```
 
-As you can see, you cannot access, or "see",  the **private** variable *PI*. However, you would still be able to access the variable internally (in the class itself).
+As you can see, you cannot access, or "see",  the **private** variable *PI*. However, you would still be able to access the variable internally.
 ```java
 class Circle {
     // Rest of the code...
@@ -50,8 +50,7 @@ Since the method *getArea()* is located inside of the class, the private variabl
 ## Getters and Setters
 There exists an alternative method to access and change **private** variables outside of their class. These methods, called Getters (for *returning* a **private** variable) and Setters (for *changing* a **private** variable), are defined within the class itself.
 
-You might wonder, why is it necessary to have a method to set & get **private** variables, when you could just make them **public** and alter them manually? The reason is that Getters & Setters can 
-include additional procedures that are executed whenever a variable is changed or returned. 
+You might wonder, why is it necessary to have a method to set & get **private** variables, when you could just make them **public** and alter them manually? The reason is that Getters & Setters can include additional procedures that are executed whenever a variable is changed or returned. 
 
 For example, let's say we have a class Square with two variables, *length* and *area*. In the constructer, a parameter is accepted for *length*, and *area* is calculated using the same parameter.
 ```java
@@ -109,7 +108,7 @@ mySquare.setLength(5);
 System.out.println(mySquare.getLength()); // outputs 5.0
 System.out.println(mySquare.getArea()); // outputs 25.0
 ```
-Hopefully you are able to see the advantages of using the **private** modifier, Setters and Getters in building **modular** code.
+Hopefully you are able to see the advantages of using the **private** modifier, Setters, and Getters in building **modular** code.
 
 ## Uses of Encapsulation
 To recap, here are the ways to implement encapsulation in your code, and the benefits of doing so:
@@ -122,7 +121,7 @@ By using the **private** modifier on variables, in combination with Getters and 
 - Neither, for use only inside the class (None)
 
 Similarly, we can apply the **private** modifier to methods, which prevents unintended usage of them outside of the class.
-Data hiding provides numerous advantageous such as:
+Data hiding provides many advantages, such as:
 - Improving runtime **security** by preventing external access to certain methods/variables
 - Communicating the proper usage of a class, increasing **collaboration** and **readability**
 - Preventing unintended external usage that may lead to errors (a form of **validation**, improving **robustness**)
@@ -130,8 +129,8 @@ Data hiding provides numerous advantageous such as:
 
 **2) Abstraction**\
 Additionally, by using **private** modifier on variables or methods, we are able to build our code in a way that hides implementation details (such as by adding extra behaviour to your Getters/Setters), which leads to abstraction.
-Abstraction is useful because it allows us to focus on the bigger picture; we can quickly reuse code without having to worry about the small details.
-Some advantages are:
+Abstraction is useful because it allows us to focus on the bigger picture; we can quickly reuse code without having to worry about the small details.\
+Some advantages of abstraction are:
 
 
 - Increases the **reusability** of the code; abstracted code fits more use cases
@@ -140,8 +139,8 @@ Some advantages are:
 - Encourages **modular** code
 
 **3) Modularity**\
-Structuring your code in an encapsulated way is a good way to increase the modularity of your code. This is because encapsulated code (such as that contained in classes) is inherently modular, as the internal code is seperate from the external code.
-Modularity is probably one of the most important aspects of writing good code.
+Structuring your code in an encapsulated way is a good way to increase the modularity of your code. This is because encapsulated code (such as that contained in classes) can be considered as being sorted into "modules", as the code inside the class is seperate from the code outside.
+Modularity is probably one of the most important aspects of writing good code!\
 Here are some benefits:
 - Allows multiple programmers to work on separate snippets of code *at the same time*, improving **collaboration**
 - Organization is improved, meaning higher **readability**
